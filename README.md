@@ -11,7 +11,7 @@ Official PyTorch implementation of **WaveCo-MTL**, a unified multi-task deep lea
 ## 📌 Key Architectural Highlights
 
 <p align="center">
-  <img src="docs/figures/Figure1_MultiTask_Framework.png" width="90%" alt="WaveCo-MTL Architecture">
+  <img src="docs/figures/fig2_waveco_mtl_framework.png" width="90%" alt="WaveCo-MTL Architecture">
 </p>
 
 - **Dual-Stream Mutual Guidance (Co-Seg)**: Collaborative prompt interaction between liver anatomical context and tumor focal regions.
