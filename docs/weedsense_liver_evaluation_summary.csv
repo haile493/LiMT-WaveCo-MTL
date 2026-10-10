@@ -1,0 +1,2 @@
+Model,Params (M),GFLOPs,FPS,Liver Dice (%),Tumor Dice (%),Hamming Acc (%),Subset Acc (%),Macro F1 (%),Micro F1 (%),Macro AUC-ROC (%),Burden MAE (%),Burden R2
+WeedSenseLiverNet (3D UIB + BGA + Transformer TGD),6.07,3.65,53.3,84.11,0.01,81.33,33.33,20.0,68.18,57.99,7.6,-0.0057

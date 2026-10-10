@@ -1,0 +1,6 @@
+Method / Variant,Liver Dice (%),Mean Dice,Std Dice,Gain vs PerSAM,Description
+PerSAM (ICLR 2024 Baseline),34.83 ± 8.38,34.82800630611028,8.378741397605944,0.00%,"SAM-only, min-similarity negative point selection"
+SynPo w/o CMSM (SAM + PSM),61.43 ± 10.84,61.43320669073664,10.838956765336288,+26.61%,Gaussian negative point selection on SAM-only confidence map
+SynPo w/o PSM (CMSM Synergy + Naive Neg),31.80 ± 9.71,31.796203923327276,9.709103634679945,+-3.03%,DINOv2 + SAM Synergy map with min-similarity negative points
+SynPo Coarse (CMSM + PSM),66.20 ± 10.17,66.1975264067888,10.170142938241117,+31.37%,Synergy confidence map + Gaussian negative point selection
+SynPo Full (CMSM + PSM + NRM),61.94 ± 9.83,61.94451883528846,9.82700645461234,+27.12%,Complete SynPo framework (MICCAI 2025)

@@ -1,0 +1,4 @@
+Split,N cases,Liver Dice (%),Liver Jaccard (%),Tumor Dice (%),Tumor Jaccard (%),Cls Accuracy (%),Cls Precision (%),Cls Recall (%),Cls Macro F1 (%),Cls Micro F1 (%)
+Train,90,93.59,88.0,23.94,16.07,86.67,68.28,88.98,75.72,84.38
+Val,30,92.94,86.95,23.26,15.28,72.67,44.86,56.43,49.25,67.72
+Test,30,92.73,86.59,21.75,13.87,76.67,50.91,59.71,54.39,72.44

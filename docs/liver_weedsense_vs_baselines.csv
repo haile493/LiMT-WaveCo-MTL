@@ -1,0 +1,7 @@
+Model,Params (M),GFLOPs,Liver Dice (%),Tumor Dice (%),Hamming Acc (%),Subset Acc (%),Micro F1 (%),Macro AUC-ROC (%),Burden MAE (%)
+Single-Task Seg-Only (3D U-Net),8.24,12.45,66.41,0.31,-,-,-,-,-
+Single-Task Cls-Only (3D ResNet),11.2,8.92,-,-,81.33,36.67,71.43,61.29,-
+MultiTaskLiverNet (Initial Baseline),13.56,15.8,89.36,0.02,70.0,16.67,66.67,55.02,-
+MultiTaskLiverNet_MSFF (EDNet),12.35,14.1,70.03,15.6,80.0,30.0,66.67,51.06,-
+ResVNetFusion (Enhanced),17.14,22.3,87.21,21.69,81.33,33.33,68.18,65.47,-
+WeedSenseLiverNet (Proposed 3D Adaptation),6.07,3.65,84.11,1.02,81.33,33.33,68.18,57.99,7.6

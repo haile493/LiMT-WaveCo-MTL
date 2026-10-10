@@ -1,0 +1,4 @@
+Task,Model,Liver Dice (%),Tumor Dice (%),Cls Acc (%),Cls F1 (%)
+Liver Segmentation,Single-Task (Seg-Only),66.41,0.31,-,-
+Lesion Classification,Single-Task (Cls-Only),-,-,82.00,38.70
+Joint Multi-Task,MultiTaskLiverNet (Ours),89.36,0.02,74.00,43.48

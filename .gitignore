@@ -1,0 +1,40 @@
+# Python byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and large weights
+# Note: best_waveco_mtl.pth (~14MB) can be tracked or hosted via Git LFS / Releases
+checkpoints/*.pth
+!checkpoints/best_waveco_mtl.pth
+
+# Medical Image Datasets (Large NIfTI volumes)
+data/LiMT Dataset/ct/
+data/LiMT Dataset/seg/
+*.nii
+*.nii.gz
+
+# Environments & virtualenvs
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/

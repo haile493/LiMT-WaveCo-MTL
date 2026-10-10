@@ -1,0 +1,2 @@
+Model,Liver Dice (%),Tumor Dice (%),Cyst Dice (%),Hemangioma Dice (%),Metastasis Dice (%),HCC Dice (%),Cls Macro F1 (%),Burden MAE,Burden R2
+WaveAttn-SOPSeg (combined),9372.665375905759,2259.473207898408,0.8254518705338378,0.0,0.0,7.310045149386217,20.0,6.452591419219971,-0.2076876163482666

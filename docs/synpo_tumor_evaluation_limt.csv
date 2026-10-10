@@ -1,0 +1,3 @@
+Method,Tumor Dice (%),Tumor Jaccard (%),Sensitivity (%),Precision (%)
+PerSAM (ICLR 2024),18.90 ± 17.33,13.38,83.29,14.67
+SynPo (MICCAI 2025),23.46 ± 21.10,17.57,78.94,19.62

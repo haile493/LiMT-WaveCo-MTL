@@ -1,0 +1,2 @@
+Model,Liver Dice (%),Tumor Dice (%),Hamming Acc (%),Macro F1 (%),Micro F1 (%),Burden MAE (%),Burden R2
+WeedSenseLiverNet (Ours),8411.24,1.02,33.33,20.0,68.18,7.6,-0.0057

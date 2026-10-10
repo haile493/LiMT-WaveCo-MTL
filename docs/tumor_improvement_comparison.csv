@@ -1,0 +1,4 @@
+Model / Method,Resolution,CLAHE,Key Modules,Liver Dice (%),Tumor Dice (%)
+"Initial Baseline MultiTaskLiverNet (64x64, Unweighted Dice)",64x64x64,No,Standard 3D U-Net + Bottleneck Channel Attention,89.08,0.02
+MultiTaskLiverNet_MSFF (Stage 1: ECAdd + DFE + Tumor Loss),64x64x64,Yes,ECAdd + DFE + Tumor-Targeted Loss,70.03,15.60
+MultiTaskLiverNet_MSFF (Stage 2: High-Res 80x80 + Calibrated),80x80x80,Yes,ECAdd + DFE + Conv Downsampling + Deep Supervision + Calibrated Inference,87.21,21.69
