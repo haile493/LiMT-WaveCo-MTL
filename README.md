@@ -33,7 +33,7 @@ Official PyTorch implementation of **WaveCo-MTL**, a unified multi-task deep lea
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ResNet (LiMT Benchmark) | Cls-Only | — | — | 73.66% | 59.23% | 53.27% | 51.59% |
 | nnU-Net (LiMT Benchmark) | Seg-Only | 97.03% | 58.80% | — | — | — | — |
-| Multi-Task Baseline (Chen et al. [78]) | Multi-Task | 97.03% | 60.04% | 75.83% | 60.91% | 53.03% | 53.40% |
+| Multi-Task Baseline (Chen et al. [18]) | Multi-Task | 97.03% | 60.04% | 75.83% | 60.91% | 53.03% | 53.40% |
 | **WaveCo-MTL (Ours, Calibrated)** | **Multi-Task** | **94.00%** | **66.60%** | **77.33%** | **53.02%** | **64.57%** | **53.37%** |
 | **WaveCo Multi-Task Ensemble** | **Multi-Task** | **94.24%** | **66.60%** | **78.67%** | **48.67%** | **52.00%** | **55.97%** |
 
