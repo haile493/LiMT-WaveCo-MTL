@@ -134,8 +134,8 @@ If you use this codebase or our pre-trained models in your research, please cite
 ```bibtex
 @article{WaveCoMTL2026,
   title={Multi-Task Learning for Simultaneous Liver and Tumor Segmentation and Multi-Label Lesion Classification: Evaluation on the LiMT Dataset},
-  author={Hai, et al.},
-  journal={Comprehensive Research Manuscript},
+  author={Le, et al.},
+  journal={submitting},
   year={2026}
 }
 ```
